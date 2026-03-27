@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Student Information Form</title> 
+</head> 
+<body> 
+ <h2>Student Information Form</h2> 
+    <form action="Details" method="post"> 
+        <label>PRN:</label><br> 
+        <input type="text" name="prn" required><br><br> 
+ 
+        <label>Name:</label><br> 
+        <input type="text" name="name" required><br><br> 
+ 
+        <label>Date of Birth:</label><br> 
+        <input type="date" name="dob" required><br><br> 
+ 
+        <label>Gender:</label><br> 
+        <input type="radio" name="gender" value="Male" required> Male 
+        <input type="radio" name="gender" value="Female" required> 
+Female<br><br> 
+ 
+        <label>Select 3 Subjects:</label><br> 
+        <input type="checkbox" name="subjects" value="Maths"> Maths<br> 
+        <input type="checkbox" name="subjects" value="Physics"> 
+Physics<br> 
+        <input type="checkbox" name="subjects" value="Chemistry"> 
+Chemistry<br> 
+        <input type="checkbox" name="subjects" value="Biology"> 
+Biology<br> 
+        <input type="checkbox" name="subjects" value="English"> 
+English<br> 
+        <input type="checkbox" name="subjects" value="Computer"> 
+Computer<br><br> 
+ 
+        <input type="submit" value="Submit"> 
+    </form> 
+</body> 
+</html> 
