@@ -1,0 +1,37 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+         https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <!-- Insert Student Servlet -->
+    <servlet>
+        <servlet-name>InsertStudentServlet</servlet-name>
+        <servlet-class>com.exp12.servlet.InsertStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertStudentServlet</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Student Servlet -->
+    <servlet>
+        <servlet-name>UpdateStudentServlet</servlet-name>
+        <servlet-class>com.exp12.servlet.UpdateStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateStudentServlet</servlet-name>
+        <url-pattern>/UpdateStudentServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Delete Student Servlet -->
+    <servlet>
+        <servlet-name>DeleteStudentServlet</servlet-name>
+        <servlet-class>com.exp12.servlet.DeleteStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteStudentServlet</servlet-name>
+        <url-pattern>/DeleteStudentServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
