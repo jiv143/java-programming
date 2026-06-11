@@ -1,0 +1,15 @@
+Experiment 1 = Apply Git and GitHub Version Control to Manage a Java "Hello World" Program.
+Experiment 2 = Analyze and Manage Student Records Using Collections and Sorting Techniques in Java.
+Experiment 3 = Understand Inheritance, Method Overriding, and Overloading Through Employee Management System. 
+Experiment 4 = Apply JDBC Concepts to Retrieve Product Details from a Relational Database.
+Experiment 5 = Evaluate JDBC Transaction Management by Implementing Secure Banking Fund Transfers,
+Experiment 6 = Apply User Input Handling to Generate Multiplication Table and Square in Java.
+Experiment 7 = Create a Servlet-Based Student Information System with HTML Formatted Output.
+Experiment 8 = Understand Different Servlet Session Management Techniques Through Practical Implementation
+Experiment 9 = Analyze Data Flow Between Servlets Using Request Forwarding and Form Handling. 
+Experiment 10 = Apply Java RMI Concepts to Transfer Student Objects and Calculate Grades.
+Experiment 11 = Create a JSP and Servlet Based Application for Student Database Operations.
+Experiment 12 = Evaluate HttpSession Based Authentication and Authorization in Web Applications.
+Experiment 13 = Create a Complete Student Management System Using JSP, Servlets, and MySQL.
+Experiment 14 = Apply Hibernate ORM Framework to Perform CRUD Operations on Student Entity.
+Experiment 15 = Analyze One-to-Many Hibernate Relationships Between Department and Employee Entities
